@@ -1,0 +1,189 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-color: #ededed;
+}
+header {
+   background-color: #4c8f96;
+   padding-top: 50px;
+   
+}
+
+h1 {
+background-color: #222841;
+padding: 0.7em;
+font-size: 3em;
+color: #ffffff;
+margin-bottom: -15px;
+
+}
+
+.wrap nav a {
+   text-decoration: none;
+   color: #ffffff;
+   background-color: #1b2130;
+   padding: 12px;
+   font-size: 1.2em;
+   margin-left: 10px;
+   border-radius: 5px;
+} 
+
+.wrap {
+   width: 60%;
+   margin: auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+main {
+   width: 60%;
+   margin: auto;
+   margin-top: 50px;
+}
+
+#tophair {
+   border: 2px solid #5fb3bd;
+   border-radius: 5px;
+   background: white;
+   display: flex;
+   align-items: center;
+}
+#tophair h2 {
+   font-size: 4em;
+}
+
+#hairstyles {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 50px;
+}
+
+#hairstyles div {
+   width: 20%;
+
+}
+#hairstyles div img {
+   width: calc(100% - 8px);
+   border: 4px solid #5fb3bd;
+   border-radius: 5px;
+   margin-bottom: 20px;
+   box-shadow: 0px 8px 15px black;
+}
+
+#group1 {
+   display: flex;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+
+
+.nr1 {
+   border: 6px solid #5fb3bd;
+   border-radius: 5px;
+   background-color: white;
+}
+
+.nr1 p {
+   margin-left: 15px;
+   margin-right: 15px;
+   margin-bottom: 20px;
+}
+.nr1 img {
+   margin-left: 15px;
+}
+
+#group1 h3 {
+   background-color: #20263f;
+   padding: 15px;
+   margin-top: -17px;
+  display: initial;
+  margin-left: 15px;
+  font-size: 1.7em;
+   color: white;
+}
+.flex {
+   margin-top: 20px;
+   display: flex;
+   margin-bottom: 20px;
+   
+}
+.flex h4 {
+   margin-left: 30px;
+   font-size: 1.2em;
+   margin-left: 15px;
+}
+
+.nr2 p{
+   margin-top: 30px;
+   color: white;
+   margin-bottom: 10px;
+   margin-left: 15px;
+   margin-right: 15px;
+
+}
+.nr2 div {
+   background-color: #519194;
+   margin-bottom: 30px;
+   border: 6px solid #5fb3bd;
+   border-radius: 5px;
+   margin-left: 30px;
+}
+
+.nr2 img {
+   margin-top: -12px;
+   margin-left: 15px;
+   margin-bottom: -8px;
+}
+
+.nr2 div:last-child {
+   display: flex;
+}
+strong {
+   color:white ;
+   margin-top: 40px;
+   font-size: 1.5em;
+   line-height: 1.5em;
+
+}
+
+footer {
+   background-color: #4c8f96;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 2em 0 2em 0;
+}
+
+.overcard {
+   margin-right: 20%;
+   background-color: #387a82;
+   padding: 0.7em;
+}
+
+footer p {
+   margin-left: 40%;
+   width: 20%;
+   color: white;
+   text-align: center;
+}
+
+.card {
+   position: relative;
+   display: inline-block;
+   padding: 1em;
+}
+.card .img-top {
+   display: none;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 99;
+   padding: 1em;
+}
+.card:hover .img-top {
+   display: inline-block;
+}
